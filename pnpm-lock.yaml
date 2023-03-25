@@ -43,7 +43,7 @@ importers:
       js-yaml: 3.14.1
       lint-staged: ^13.1.0
       lodash: 4.17.21
-      markdownlint: 0.27.0
+      markdownlint: 0.28.0
       mock-fs: 5.2.0
       npm-run-all: 4.1.5
       pm2: ^5.2.2
@@ -98,7 +98,7 @@ importers:
       js-yaml: 3.14.1
       lint-staged: 13.1.2
       lodash: 4.17.21
-      markdownlint: 0.27.0
+      markdownlint: 0.28.0
       mock-fs: 5.2.0
       npm-run-all: 4.1.5
       prettier: 2.8.4
@@ -22809,11 +22809,17 @@ packages:
     dependencies:
       repeat-string: 1.6.1
 
-  /markdownlint/0.27.0:
-    resolution: {integrity: sha512-HtfVr/hzJJmE0C198F99JLaeada+646B5SaG2pVoEakLFI6iRGsvMqrnnrflq8hm1zQgwskEgqSnhDW11JBp0w==}
+  /markdownlint-micromark/0.1.2:
+    resolution: {integrity: sha512-jRxlQg8KpOfM2IbCL9RXM8ZiYWz2rv6DlZAnGv8ASJQpUh6byTBnEsbuMZ6T2/uIgntyf7SKg/mEaEBo1164fQ==}
+    engines: {node: '>=14.18.0'}
+    dev: true
+
+  /markdownlint/0.28.0:
+    resolution: {integrity: sha512-7Gt/SzjE5420Dr93wZgTLlgfcWj5vxAWJtvN7bBfN35ytQwsVDEW46L+NswzeCVhZSFdWRgLdEwQo3lMavUjvQ==}
     engines: {node: '>=14.18.0'}
     dependencies:
       markdown-it: 13.0.1
+      markdownlint-micromark: 0.1.2
     dev: true
 
   /marked/1.2.9:
